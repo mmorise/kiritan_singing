@@ -1,6 +1,10 @@
 # 東北きりたん歌唱データベースのラベルデータ
 東北きりたん歌唱データベース（きりたん歌唱DB）の最新ラベルデータを共有するためのリポジトリです．データベースの本体は[こちら](https://zunko.jp/kiridev/login.php)からダウンロードできます．midi_label，mono_labelに加えてMusicXMLも公開しました．
 
+## 学会発表や論文投稿において文献の引用が必要な場合
+以下の論文を引用してください．  
+[1] I. Ogawa and M. Morise: Tohoku Kiritan singing database: A singing database for statistical parametric singing synthesis using Japanese pop songs, Acoustical Science and Technology, vol. 42, no. 3, pp. 140-145, May 2021.
+
 ## 本リポジトリで配布するデータとGitHubで公開する動機
 本データベースのラベルにはmidi_labelとmono_labelとがあり，それぞれ譜面データと音素境界のデータとなります．MIDIについてはMelodyneで自動採譜した後に手動で調整したものを配布していますが，楽曲によっては採譜そのものが困難な場合や，キーが曖昧でずれてしまっている場合があります．これら以外にも，実際に利用してみて判明する問題もあると考えられることから，ご利用者の皆様の修正案をここで議論できればと思い，ラベルデータのみGitHubで管理することにしました．
 
